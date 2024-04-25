@@ -77,14 +77,17 @@ function create_shape(){
   })
 }
 
-function keyPressed() {
-  if (key === 's' || key === 'S') {
-    save('myArtwork.svg');
-  }
-}
-
 function console_log(size){
   console.log(size)
   console.log("hey")
   console.log(windowWidth, windowHeight);
+}
+
+function keyPressed() {
+  if (key === 's' || key === 'S') {
+    save('myArtwork.svg');
+  }
+  if(key === 'r' || key === 'R'){
+    window.location.reload();
+  }
 }
