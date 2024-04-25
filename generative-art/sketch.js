@@ -55,18 +55,17 @@ function setup() {
   }
   leafColor = (colors === color_pal1 || colors === color_pal3) ? color(10, 80) : color(120, 80);
   //clear the canvas to remove the background
-  clear()
+  //clear()
 }
 
 function draw() {
-  background(190)
   scale(0.13)
   create_shape();
 }
 
 function create_shape(){
   for(let i = 0;i < grid.colomn;i++){
-    for(j = 0;j < grid.row;j++){
+    for(let j = 0;j < grid.row;j++){
       let x = start + (grid.boxSize * i)
       let y = start + (grid.boxSize * j)
       Shape.push(new shape(x,y))
