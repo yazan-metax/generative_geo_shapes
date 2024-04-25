@@ -11,7 +11,7 @@ Generative Shapes System is a creative coding project designed to produce intric
 
 ## Setup
 To get started with the Generative Shapes System, follow these steps:
-1. Clone this repository to your local machine using `git clone https://github.com/yourusername/generative-shapes.git`.
+1. Clone this repository to your local machine using `https://github.com/yazan-metax/generative_geo_shapes.git`.
 2. Open the `index.html` file in a web browser to see the system in action.
 3. Adjust `grid` and `color` settings in `setup()` within `sketch.js` to modify the output.
 
